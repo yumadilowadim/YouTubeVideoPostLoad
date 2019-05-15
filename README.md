@@ -1,7 +1,7 @@
 # YouTubeVideoPostLoad
 YouTube Video Post Load - plugin for JQuery.
 
-## Create div and object inside, add attributes to this object. ##
+## Create div and object inside, add attributes in this object. ##
 ```
 data-ytid - video id from youtube (example: "zc6iMpaYIUM", copy id from youtube video)
 data-ytwidth - width for video block (in pixels)
