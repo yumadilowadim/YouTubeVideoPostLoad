@@ -1,0 +1,36 @@
+<html>
+<head>
+<title>YouTube Video Post Load</title>
+<script src="dev/jquery.js"></script>
+</head>
+<body>
+
+<div class="code">
+Create <b>div</b> and object inside, add attributes to this object.<br/><br/>
+<b>data-ytid</b> - id youtube video (example: "zc6iMpaYIUM", copy id from youtube video)<br/>
+<b>data-ytwidth</b> - width for video block  (in pixels)<br/>
+<b>data-ytheight</b> - height for video block (in pixels)<br/>
+<b>data-ytaplay</b> - autoplay for video youtube (0 or 1)<br/><br/>
+Activate plugin in js: $(SELECTOR).ytvideo();<br/>
+SELECTOR - your class, tag or id (example: ".ytvideo", ".ytvideo", "div a")<br/>
+</div>
+
+<div class="main">
+<div class="dib"><div><a href="#" class="ytvideo" data-ytid="zc6iMpaYIUM" data-ytwidth="175" data-ytheight="125"><img src="https://i.ytimg.com/vi/zc6iMpaYIUM/hqdefault.jpg" width="175" height="125" /></a></div>
+<div><a href="#" class="ytvideo" data-ytid="tN9vBO_b6b0" data-ytwidth="175" data-ytaplay="0" data-ytheight="125"><img src="https://i.ytimg.com/vi/tN9vBO_b6b0/hqdefault.jpg" width="175" height="125" /></a></div></div>
+<div class="dib"><a href="#" class="ytvideo" data-ytid="DCkydkdhL8M" data-ytaplay="1" data-ytwidth="300" data-ytheight="250"><img src="https://i.ytimg.com/vi/DCkydkdhL8M/hqdefault.jpg" width="300" height="250" /></a></div>
+</div>
+
+<script src="yvpostload.min.js"></script>
+<script>
+$(".ytvideo").ytvideo();
+</script>
+<style>
+body {font-family:Verdana;}
+.main {display:block;width:100%;}
+.dib {display:inline-block;vertical-align:top;}
+.dn {display:none;}
+.code {margin-bottom:20px;border:2px solid #ccc;padding:10px;}
+</style>
+</body>
+</html>
