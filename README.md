@@ -12,3 +12,5 @@ data-ytaplay - autoplay for video youtube (0 or 1)
 Activate plugin in js: $(SELECTOR).ytvideo();
 
 SELECTOR - your class, tag or id (example: ".ytvideo", ".ytvideo", "div a")
+
+Demo: [https://yumadilowadim.github.io/YouTubeVideoPostLoad/](https://yumadilowadim.github.io/YouTubeVideoPostLoad/)
